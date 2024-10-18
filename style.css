@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #95c8de;
+}
+
+body {
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.landing-container {
+    display: flex;
+    align-items: center;
+    border: 6px solid black;
+    border-radius: 4rem;
+    padding: 5rem;
+}
+
+.title {
+    margin-left: 6rem;
+    font-size: 1.7rem;
+    color: rgb(5, 37, 66); 
+}
+
+.acts {
+    color: #1F2E58;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.btns  {
+    font-size: 18px;
+    padding-top: 2rem;
+    padding-left: 6rem;
+}
+
+.btns a {
+    text-decoration: none;
+    color: #1F2E58;
+    transition: color 0.3s ease;
+}
+
+.btns a:hover {
+    color: rgb(3, 7, 250);
+}
